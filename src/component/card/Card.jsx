@@ -1,11 +1,11 @@
 import React from "react";
-import nasgor from "./img/nasigoreng.jpg";
 import "./Card.css";
+import soto from "./img/soto.jpg";
 
 const Card = (props) => {
    return (
       <div className="card-wrapper">
-         <img src={nasgor} alt="img" />
+         <img src={soto} alt="img" />
          <p className="card-nama">{props.title}</p>
          <p className="card-harga">{props.desc}</p>
       </div>
