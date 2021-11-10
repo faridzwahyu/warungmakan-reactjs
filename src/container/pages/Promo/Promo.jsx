@@ -1,11 +1,11 @@
-import { Fragment, Component } from "react";
+import { Component } from "react";
 import Card from "../../../component/card/Card";
-import "./Menu.css";
+import "./Promo.css";
 
-class Menu extends Component {
+class Promo extends Component {
    render() {
       return (
-         <div className="menu-wrapper">
+         <div className="promo-wrapper">
             <Card title="Nasi Goreng" desc="Rp 5000" />
             <Card title="Soto" desc="Rp 7500" />
             <Card title="Bakso" desc="Rp 6000" />
@@ -15,4 +15,4 @@ class Menu extends Component {
    }
 }
 
-export default Menu;
+export default Promo;
